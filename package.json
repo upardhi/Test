@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "nodemailer": "^7.0.6"
+  },
+  "scripts": {
+    "start": "pm2 start index.js",
+    "stop": "pm2 stop index.js",
+    "restart": "pm2 restart index.js"
   }
 }
